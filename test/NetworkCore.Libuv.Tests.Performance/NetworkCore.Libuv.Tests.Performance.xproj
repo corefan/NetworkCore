@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>c0edab20-d22f-47ab-bee5-ab90ddc913a0</ProjectGuid>
-    <RootNamespace>NetworkCore</RootNamespace>
+    <ProjectGuid>967a6ff1-33f8-4230-a247-f0f9fb411bd9</ProjectGuid>
+    <RootNamespace>NetworkCore.Libuv.Tests.Performance</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>

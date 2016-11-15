@@ -1,0 +1,42 @@
+{
+  "name": "NetworkCore.Libuv",
+  "version": "0.0.1",
+  "title": "NetworkCore: Libuv based network library",
+  "description": "Libuv managed wrapper",
+  "language": "en-US",
+  "authors": [
+    "Johnny Z"
+  ],
+  "packOptions": {
+    "tags": [ "socket", "tcp", "protocol", "libuv", "network" ],
+    "projectUrl": "https://github.com/StormHub/NetworkCore",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/StormHub/NetworkCore"
+    }
+  },
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.1",
+    "Libuv": "1.9.1",
+    "Microsoft.Extensions.Logging": "1.1.0",
+    "Microsoft.Extensions.Logging.Console": "1.1.0",
+    "System.Runtime.CompilerServices.Unsafe": "4.3.0"
+  },
+  "frameworks": {
+    "netstandard1.3": {
+      "dependencies": {
+        "System.Diagnostics.Contracts": "4.3.0",
+        "System.Threading.Thread": "4.3.0",
+        "System.Diagnostics.StackTrace": "4.3.0"
+      }
+    },
+    "net461": { }
+  },
+  "buildOptions": {
+    "allowUnsafe": true,
+    "nowarn": [
+      "CS1591"
+    ]
+  }
+}

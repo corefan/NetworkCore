@@ -1,0 +1,26 @@
+{
+  "buildOptions": {
+    "allowUnsafe": true
+  },
+
+  "dependencies": {
+    "dotnet-test-xunit": "2.2.0-*",
+    "NetworkCore.Libuv": {
+      "target": "project"
+    },
+    "xunit": "2.2.0-*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.1",
+          "type": "platform"
+        }
+      },
+      "imports": "dnxcore50"
+    },
+    "net461": { }
+  },
+  "testRunner": "xunit"
+}
